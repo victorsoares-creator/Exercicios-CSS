@@ -1,0 +1,9 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    height: 300px;
+    gap: 16px;
+}

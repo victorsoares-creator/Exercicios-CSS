@@ -1,0 +1,9 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.ypidge,.rattata,.spearow,.ekans{
+    border: 5px solid rgba(197, 188, 54, 0.61);
+}

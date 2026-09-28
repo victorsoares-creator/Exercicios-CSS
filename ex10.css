@@ -1,0 +1,25 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.zapdos,.moltres,.articuno{
+    border: 6px solid;
+}
+
+.articuno{
+    grid-row:1;
+    grid-column:1   
+}
+
+.zapdos{
+    grid-row:2;
+    grid-column:2   
+}
+
+.moltres{
+    grid-row:3;
+    grid-column:3   
+}
